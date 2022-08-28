@@ -7,6 +7,6 @@ app({
 			: undefined,
 	},
 }).listen({
-	port: process.env.PORT || 4000,
-	host: process.env.HOST || "localhost",
+	port: 4000,
+	host: "0.0.0.0",
 });
